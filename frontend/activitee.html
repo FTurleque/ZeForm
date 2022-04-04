@@ -1,0 +1,54 @@
+<!DOCTYPE html>
+<html lang="fr">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="./assets/css/style.css">
+    <title>Activitées</title>
+</head>
+<body>
+    <header>
+        <div  id="logo">
+            <img src="./assets/Logo_CRM/1.Logo_prioritaire/1.Couleurs/CRM_logo-vertical-baseline_rvb.png" alt="Logo_CRM">
+        </div>
+    </header>
+    <main>
+        <h2>Ajouter une activitée :</h2>
+        <div id="activity_form">
+            <form action="/ma-page-de-traitement" method="post">
+                <div id="names">
+                    <label for="name" class="activity_name">Nom de l'activitée :</label>
+                    <input type="text" class="activity_name" name="activity_name">
+                </div>
+                <div id="input">
+                    <label for="msg" class="description_name">Déscription de l'activitée :</label>
+                    <textarea id="msg" name="activity_description" class="description_name"></textarea>
+                </div>
+            </form>
+            <div>
+                <button type="submit">Ajouter</button>
+            </div>
+        </div>
+        <section>
+            <table>
+                <caption><h2>Activitées</h2></caption>
+                <thead>
+                    <tr>
+                        <th>Nom de l'activitée</th>
+                        <th>Déscription de l'activitée</th>
+                        <th>Lieu de l'activitée</th>
+                    </tr>
+                </thead>
+                <tbody>
+                    <tr>
+                        <td>Badbinton</td>
+                        <td>Deux raquettes et un volant.</td>
+                        <td>Gymnase</td>
+                    </tr>
+                </tbody>
+            </table>
+        </section>
+    </main>
+</body>
+</html>

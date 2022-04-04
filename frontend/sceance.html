@@ -1,0 +1,88 @@
+<!DOCTYPE html>
+<html lang="fr">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Scéance</title>
+</head>
+<body>
+    <header>
+
+    </header>
+    <main>
+        <form action="/ma-page-de-traitement" method="post">
+            <h2>Programmation des activitées</h2>
+            <label for="input_choice">Choix du sport :</label>
+            <input list="sports" id="input_choice" name="input_choice" />
+            <datalist id="sports">
+                <option value="Badbinton">
+                <option value="Cardio Training">
+                <option value="Picine">
+                <option value="Tir à l'arc">
+            </datalist>
+            <div>
+                <label for="sceance_day">Sélection de la date :</label>
+                <input type="date" id="sceance_day" name="day">
+            </div>
+            <div>
+                <label for="sceance_start">Sélection de l'heure de début :</label>
+                <input type="time" id="sceance_start" name="start">
+            </div>
+            <div>
+                <label for="sceance_end">Sélection de l'heure de fin :</label>
+                <input type="time" id="sceance_end" name="end">
+            </div>
+        </form>
+        <section>
+            <table>
+                <caption>Programme des activitées</caption>
+                <thead>
+                    <tr>
+                        <th></th>
+                        <th>Lundi</th>
+                        <th>Mardi</th>
+                        <th>Mércredi</th>
+                        <th>Jeudi</th>
+                        <th>Vendredi</th>
+                    </tr>
+                </thead>
+                <tbody>
+                    <tr>
+                        <td>Badbinton</td>
+                        <td></td>
+                        <td></td>
+                        <td></td>
+                        <td></td>
+                        <td></td>
+                    </tr>
+                    <tr>
+                        <td>Cardio Training</td>
+                        <td></td>
+                        <td></td>
+                        <td></td>
+                        <td></td>
+                        <td></td>
+                    </tr>
+                    <tr>
+                        <td>Picine</td>
+                        <td></td>
+                        <td></td>
+                        <td></td>
+                        <td></td>
+                        <td></td>
+                    </tr>
+                    <tr>
+                        <td>Tir à l'arc</td>
+                        <td></td>
+                        <td></td>
+                        <td></td>
+                        <td></td>
+                        <td></td>
+                    </tr>
+                </tbody>
+            </table>
+        </section>
+    </main>
+</body>
+</html>
